@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pgevexe:block/terminal" },
+    "facing=east": { "model": "pgevexe:block/terminal", "y": 90 },
+    "facing=south": { "model": "pgevexe:block/terminal", "y": 180 },
+    "facing=west": { "model": "pgevexe:block/terminal", "y": 270 }
+  }
+}

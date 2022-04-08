@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "particle": "pgevexe:block/terminal_front",
+    "up": "pgevexe:block/terminal_sides",
+    "down": "pgevexe:block/terminal_sides",
+    "north": "pgevexe:block/terminal_front",
+    "south": "pgevexe:block/terminal_sides",
+    "west": "pgevexe:block/terminal_sides",
+    "east": "pgevexe:block/terminal_sides"
+  }
+}
