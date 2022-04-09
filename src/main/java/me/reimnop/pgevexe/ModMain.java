@@ -28,7 +28,7 @@ public class ModMain implements ModInitializer {
 	public static ScreenHandlerType<TerminalScreenHandler> TERMINAL_SCREEN_HANDLER;
 
 	static {
-		TERMINAL_SCREEN_HANDLER = ScreenHandlerRegistry.registerSimple(TERMINAL, TerminalScreenHandler::new);
+		TERMINAL_SCREEN_HANDLER = ScreenHandlerRegistry.registerExtended(TERMINAL, TerminalScreenHandler::new);
 	}
 
 	@Override
