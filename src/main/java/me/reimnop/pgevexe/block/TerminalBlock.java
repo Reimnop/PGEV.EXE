@@ -1,5 +1,7 @@
-package me.reimnop.pgevexe;
+package me.reimnop.pgevexe.block;
 
+import me.reimnop.pgevexe.ModMain;
+import me.reimnop.pgevexe.block_entity.TerminalBlockEntity;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityTicker;

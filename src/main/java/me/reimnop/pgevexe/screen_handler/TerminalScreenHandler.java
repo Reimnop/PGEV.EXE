@@ -1,5 +1,8 @@
-package me.reimnop.pgevexe;
+package me.reimnop.pgevexe.screen_handler;
 
+import me.reimnop.pgevexe.ModMain;
+import me.reimnop.pgevexe.Utils;
+import me.reimnop.pgevexe.block_entity.TerminalBlockEntity;
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.entity.player.PlayerEntity;
@@ -17,12 +20,12 @@ public class TerminalScreenHandler extends ScreenHandler {
 
     private final PlayerEntity player;
 
-    protected TerminalScreenHandler(int syncId, PlayerInventory playerInventory, TerminalBlockEntity blockEntity) {
+    public TerminalScreenHandler(int syncId, PlayerInventory playerInventory, TerminalBlockEntity blockEntity) {
         this(syncId, playerInventory, "");
         this.blockEntity = blockEntity;
     }
 
-    protected TerminalScreenHandler(int syncId, PlayerInventory playerInventory, PacketByteBuf buf) {
+    public TerminalScreenHandler(int syncId, PlayerInventory playerInventory, PacketByteBuf buf) {
         this(syncId, playerInventory, buf.readString());
     }
 

@@ -1,6 +1,6 @@
 package me.reimnop.pgevexe.actions;
 
-import me.reimnop.pgevexe.TerminalBlockEntity;
+import me.reimnop.pgevexe.block_entity.TerminalBlockEntity;
 
 public class DelayAction extends Action {
     private final int delay;

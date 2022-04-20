@@ -1,6 +1,8 @@
-package me.reimnop.pgevexe;
+package me.reimnop.pgevexe.screen;
 
 import com.mojang.blaze3d.systems.RenderSystem;
+import me.reimnop.pgevexe.screen_handler.TerminalScreenHandler;
+import me.reimnop.pgevexe.Utils;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.ingame.ScreenHandlerProvider;
 import net.minecraft.client.render.GameRenderer;

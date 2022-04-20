@@ -1,5 +1,8 @@
 package me.reimnop.pgevexe;
 
+import me.reimnop.pgevexe.block.TerminalBlock;
+import me.reimnop.pgevexe.block_entity.TerminalBlockEntity;
+import me.reimnop.pgevexe.screen_handler.TerminalScreenHandler;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;

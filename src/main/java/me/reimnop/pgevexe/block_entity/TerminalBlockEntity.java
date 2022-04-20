@@ -1,5 +1,8 @@
-package me.reimnop.pgevexe;
+package me.reimnop.pgevexe.block_entity;
 
+import me.reimnop.pgevexe.ModMain;
+import me.reimnop.pgevexe.actions.Scene;
+import me.reimnop.pgevexe.screen_handler.TerminalScreenHandler;
 import me.reimnop.pgevexe.actions.Action;
 import me.reimnop.pgevexe.actions.ClearAction;
 import me.reimnop.pgevexe.actions.DelayAction;
@@ -7,9 +10,6 @@ import me.reimnop.pgevexe.actions.TypeWriteAction;
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.nbt.NbtCompound;
@@ -21,7 +21,6 @@ import net.minecraft.text.TranslatableText;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.explosion.Explosion;
-import net.minecraft.world.explosion.ExplosionBehavior;
 
 public class TerminalBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory {
     // <----------------------->

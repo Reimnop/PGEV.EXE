@@ -1,5 +1,7 @@
 package me.reimnop.pgevexe;
 
+import me.reimnop.pgevexe.screen.TerminalScreen;
+import me.reimnop.pgevexe.screen_handler.TerminalScreenHandler;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

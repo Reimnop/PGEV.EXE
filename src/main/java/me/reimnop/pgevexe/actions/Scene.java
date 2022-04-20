@@ -1,6 +1,7 @@
-package me.reimnop.pgevexe;
+package me.reimnop.pgevexe.actions;
 
 import me.reimnop.pgevexe.actions.Action;
+import me.reimnop.pgevexe.block_entity.TerminalBlockEntity;
 
 public class Scene {
     private final Action[] actions;
